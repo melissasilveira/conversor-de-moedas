@@ -4,7 +4,7 @@ public class MenuPrincipal {
 
 //        caixa de diálogo inicial para seleção do tipo de conversor
         public static void tipoConversor() {
-            String[] opcoesConversao = {"Conversor de Moeda", "Conversor de Medidas"};
+            String[] opcoesConversao = {"Conversor de Moeda"};
 
             String entrada = (String) JOptionPane.showInputDialog(null, "Escolha uma opção", "Opções",
                     JOptionPane.QUESTION_MESSAGE, null, opcoesConversao, opcoesConversao[0]);
